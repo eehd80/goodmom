@@ -1,0 +1,216 @@
+.lst-introduce {
+    display: flex;
+    justify-content: space-between;
+    li {
+        width: 30%;
+        padding: 40px 20px;
+        border: 1px solid #eee;
+        border-radius: 10px;
+        text-align: center;
+        strong {
+            display: block;
+            margin: 30px 0 20px;
+            font-size: 1.6em;
+            font-weight: 400;
+        }
+        p {
+            color: #888;
+            // font-family: "nanumsquare";
+            letter-spacing: -1px;
+            font-weight: 300;
+        }
+        b {
+            font-weight: normal;
+            text-decoration: underline;
+        }
+        img {
+            display: block;
+            width: 40%;
+            margin: 0 auto;
+        }
+        &:nth-child(1) {
+            strong {
+                color: $prim1;
+            }
+        }
+        &:nth-child(2) {
+            strong {
+                color: $prim2;
+            }
+        }
+        &:nth-child(3) {
+            strong {
+                color: $prim3;
+            }
+        }
+    }
+}
+
+.lst-certificate {
+    display: flex;
+    justify-content: space-between;
+    li {
+        width: 22%;
+        text-align: center;
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+    .thumb {
+        position: relative;
+        background-color: $w;
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 1px solid rgba($b, 0.05);
+        }
+    }
+    .txt {
+        margin-top: 20px;
+        b {
+            font-weight: 400;
+        }
+        p {
+            font-weight: 300;
+        }
+    }
+}
+
+.root_daum_roughmap_landing {
+    width: 100%;
+}
+.area-location {
+    display: flex;
+    margin-top: 30px;
+    .tit-sub {
+        width: 20%;
+        font-weight: 400;
+        color: $prim3;
+    }
+    .lst-location {
+        dl {
+            display: flex;
+            padding: 5px 0;
+        }
+        dt {
+            width: 100px;
+            color: $subFont;
+            font-weight: 300;
+        }
+    }
+}
+.sec-manager {
+    font-weight: 300;
+    .sec-cont {
+        p {
+            font-size: 1.1em;
+            font-weight: 400;
+            color: $prim3;
+        }
+    }
+}
+.sec-edustep {
+    .lst-edustep {
+        display: flex;
+        flex-wrap: wrap;
+        > li {
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 50%;
+            margin-bottom: 50px;
+            &.et {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+        .tit {
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100px;
+            height: 100px;
+            margin-right: 30px;
+            background-color: $prim3;
+            border-radius: 50%;
+            text-align: center;
+            color: $w;
+            font-weight: 400;
+            span {
+                display: block;
+                font-size: 2rem;
+                line-height: 1;
+            }
+        }
+        .depth2 {
+            li {
+                position: relative;
+                padding: 4px 0 4px 13px;
+                font-weight: 300;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 15px;
+                    left: 0;
+                    width: 3px;
+                    height: 3px;
+                    background-color: $b;
+                    opacity: 0.3;
+                }
+            }
+        }
+    }
+    .desc {
+        .tit {
+            display: block;
+            margin: 30px 0 10px;
+            color: $prim1;
+            font-weight: 400;
+        }
+        .depth2 {
+            li {
+                position: relative;
+                padding: 2px 0 2px 13px;
+                font-weight: 300;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 15px;
+                    left: 0;
+                    width: 3px;
+                    height: 3px;
+                    background-color: $b;
+                    opacity: 0.3;
+                }
+            }
+        }
+    }
+}
+
+.lst-bookiing {
+    li {
+        position: relative;
+        padding: 2px 0 2px 13px;
+        font-weight: 300;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 15px;
+            left: 0;
+            width: 3px;
+            height: 3px;
+            background-color: $b;
+            opacity: 0.3;
+        }
+        span {
+            color: $prim1;
+        }
+    }
+}

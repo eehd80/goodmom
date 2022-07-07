@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>착한맘 산모도우미</title>
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="페이지 제목" />
+        <meta property="og:description" content="페이지 설명" />
+        <meta property="og:image" content="http://www.mysite.com/article/article1_featured_image.jpg" />
+        <meta property="og:url" content="http://www.mysite.com/article/article1.html" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="페이지 제목" />
+        <meta name="twitter:description" content="페이지 설명" />
+        <meta name="twitter:image" content="http://www.mysite.com/article/article1.html" />
+        <meta name="twitter:domain" content="사이트 명" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+        />
+        <link rel="stylesheet" href="./css/comm.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    </head>
+    <body>
+        <header id="hd">
+            <div class="container">
+                <h1 id="logo">
+                    <a href="index.html"> <span>착한맘</span> 산모도우미 </a>
+                </h1>
+                <nav id="nav">
+                    <ul class="lst-nav">
+                        <li>
+                            <a href="about.html">착한맘 소개</a>
+                        </li>
+                        <li>
+                            <a href="manager.html">산모신생아관리사</a>
+                        </li>
+                        <li>
+                            <a href="charge.html">이용안내</a>
+                        </li>
+                        <li>
+                            <a href="service.html">서비스안내</a>
+                        </li>
+                        <li>
+                            <a href="cooperation.html">지점안내</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <nav id="lnb">
+                <ul class="lnb-ul">
+                    <li>
+                        <a target="_blank" href="#">
+                            <span>
+                                <img class="def" src="./images/comm/gnb-sns04.png" alt="착한맘 블로그" />
+                                <img class="hov" src="./images/comm/gnb-sns04-1.png" alt="착한맘 블로그" />
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="#">
+                            <span>
+                                <img class="def" src="./images/comm/gnb-sns01.png" alt="착한맘 인스타그램" />
+                                <img class="hov" src="./images/comm/gnb-sns01-1.png" alt="착한맘 인스타그램" />
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="#">
+                            <span>
+                                <img class="def" src="./images/comm/gnb-sns02.png" alt="착한맘 유튜브" />
+                                <img class="hov" src="./images/comm/gnb-sns02-1.png" alt="착한맘 유튜브" />
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="#">
+                            <span>
+                                <img class="def" src="./images/comm/gnb-sns03.png" alt="착한맘 페이스북" />
+                                <img class="hov" src="./images/comm/gnb-sns03-1.png" alt="착한맘 페이스북" />
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <!-- 베이직 서비스 -->
+            <section class="sec-g">
+                <div class="container">
+                    <div class="sec-tit">
+                        <h2 class="tit-sub"><span class="blue">일반</span> 서비스</h2>
+                    </div>
+                    <div class="sec-cont">
+                        <table width="100%" class="tbl-type1" surmarry="베스트 서비스 요금표">
+                            <colgroup>
+                                <col style="width: 20%" />
+                                <col style="width: 20%" />
+                                <col style="width: 20%" />
+                                <col style="width: 20%" />
+                                <col style="width: 20%" />
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>구분</th>
+                                    <th>1주</th>
+                                    <th>2주</th>
+                                    <th>3주</th>
+                                    <th>4주</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>출퇴근 (5일)</th>
+                                    <td>645,000원</td>
+                                    <td>1,250,000원</td>
+                                    <td>1,875,000원</td>
+                                    <td>2,500,000원</td>
+                                </tr>
+                                <tr>
+                                    <th class="add">예약금</th>
+                                    <td class="add">16만원</td>
+                                    <td class="add">30만원</td>
+                                    <td class="add">45만원</td>
+                                    <td class="add">60만원</td>
+                                </tr>
+                                <!-- <tr>
+                                    <th>입주형 (주5일)</th>
+                                    <td>1,045,000원</td>
+                                    <td>1,960,000원</td>
+                                    <td>2,875,000원</td>
+                                    <td>3,770,000원</td>
+                                </tr>
+                                <tr>
+                                    <th class="add">예약금</th>
+                                    <td class="add">19만원</td>
+                                    <td class="add">33만원</td>
+                                    <td class="add">49만원</td>
+                                    <td class="add">66만원</td>
+                                </tr> -->
+                            </tbody>
+                        </table>
+
+                        <h3 class="tit-sub2">추가요금</h3>
+                        <table surmarry=">베이직 서비스 요금표" class="tbl-type1" width="100%">
+                            <colgroup>
+                                <col style="width: 15%" />
+                                <col style="width: 15%" />
+                                <!-- <col style="width: 15%" /> -->
+                                <col style="width: 15%" />
+                                <col />
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th colspan="2">구분</th>
+                                    <th>출퇴근형</th>
+                                    <!-- <th>입주형</th> -->
+                                    <th>내용</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th rowspan="3">큰아이 <br />(1명당)</th>
+                                    <th>미취학</th>
+                                    <td>1만원</td>
+                                    <!-- <td>1만원</td> -->
+                                    <td class="txt-left">24개월미만으로 2시이전 하원이나 어린이집/유치원 안 가는 경우</td>
+                                </tr>
+                                <tr>
+                                    <th>어린이집, <br />유치원</th>
+                                    <td>5천원</td>
+                                    <!-- <td>7 천원</td> -->
+                                    <td class="txt-left">3시~4시 이후 어린이집/유치원 하원 하는 경우</td>
+                                </tr>
+                                <tr>
+                                    <th>초등학교 이상</th>
+                                    <td>5천원</td>
+                                    <!-- <td>6 천원</td> -->
+                                    <td class="txt-left">8세(초등) 이상인 경우</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">가족추가 1인당</th>
+                                    <td>5천원</td>
+                                    <!-- <td>6 천원</td>
+                                    ...... -->
+                                    <td class="txt-left"><!--남편제외-->육아휴직, 재택근무 남편 및 부모님 등</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">신생아(쌍둥이) 1일 추가</th>
+                                    <td>4만원</td>
+                                    <!-- <td>4 만원</td> -->
+                                    <td class="txt-left">신생아가 쌍둥이인 경우</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">토요일(9시~13시)</th>
+                                    <td>6만5천원</td>
+                                    <!-- <td>16만원</td> -->
+                                    <td class="txt-left">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">시간추가(1시간당)</th>
+                                    <td>1만 7천원<span> (초산)</span></td>
+                                    <!-- <td>&nbsp;</td> -->
+                                    <td class="txt-left">경산(1명) : 1만 9천원 / 경산(2명) : 2만 1천원</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">일요일/공휴일</th>
+                                    <td>15만원</td>
+                                    <!-- <td>18만원</td> -->
+                                    <td class="txt-left">일요일/공휴일에 근무하는 경우</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">명절 휴일</th>
+                                    <td>20 만원</td>
+                                    <!-- <td>19 만원</td> -->
+                                    <td class="txt-left">명절휴일에 근무하는 경우</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 베스트 서비스 -->
+            <section class="sec-g bg-gray">
+                <div class="container">
+                    <div class="sec-tit">
+                        <h2 class="tit-sub"><span class="yellow">베스트</span> 서비스</h2>
+                        <p class="txt-sub">
+                            베스트 서비스는 <span class="yellow">심화교육을 이수</span>하고 <span class="yellow">2년 이상의 경력</span>과
+                            산모도우미119에서 시행한 <span class="yellow">평가점수가 우수</span>한 관리사님이 서비스를 진행합니다.
+                        </p>
+                    </div>
+                    <div class="sec-cont">
+                        <table width="100%" class="tbl-type1 yellow" surmarry="베스트 서비스 요금표">
+                            <colgroup>
+                                <col style="width: 20%" />
+                                <col style="width: 20%" />
+                                <col style="width: 20%" />
+                                <col style="width: 20%" />
+                                <col style="width: 20%" />
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>구분</th>
+                                    <th>1주</th>
+                                    <th>2주</th>
+                                    <th>3주</th>
+                                    <th>4주</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>출퇴근 (5일)</th>
+                                    <td>680,000원</td>
+                                    <td>1,320,000원</td>
+                                    <td>1,980,000원</td>
+                                    <td>2,640,000원</td>
+                                </tr>
+                                <tr>
+                                    <th class="add">예약금</th>
+                                    <td class="add">17만원</td>
+                                    <td class="add">32만원</td>
+                                    <td class="add">48만원</td>
+                                    <td class="add">64만원</td>
+                                </tr>
+                                <tr>
+                                    <th>입주형(주5일)</th>
+                                    <td>1,115,000원</td>
+                                    <td>2,080,000원</td>
+                                    <td>3,055,000원</td>
+                                    <td>4,050,000원</td>
+                                </tr>
+                                <tr>
+                                    <th class="add">예약금</th>
+                                    <td class="add">19만원</td>
+                                    <td class="add">34만원</td>
+                                    <td class="add">50만원</td>
+                                    <td class="add">66만원</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3 class="tit-sub2">추가요금</h3>
+                        <table surmarry=">베스트 서비스 요금표" class="tbl-type1 yellow" width="100%">
+                            <colgroup>
+                                <col style="width: 15%" />
+                                <col style="width: 15%" />
+                                <col style="width: 15%" />
+                                <col style="width: 15%" />
+                                <col />
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th colspan="2">구분</th>
+                                    <th>출, 퇴근형</th>
+                                    <th>입주형</th>
+                                    <th>내용</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th rowspan="3">큰아이<br />(1명당)</th>
+                                    <th>미취학</th>
+                                    <td>
+                                        <p>1만원</p>
+                                    </td>
+                                    <td>
+                                        <p>1만 5천원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>
+                                            <span>24</span>개월미만으로 <span>2</span>시이전 하원이나 어린이집<span
+                                                lang="EN-US"
+                                                xml:lang="EN-US"
+                                                >/</span
+                                            >유치원 안가는경우
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>어린이집, <br />유치원</th>
+                                    <td>
+                                        <p>5천원</p>
+                                    </td>
+                                    <td>
+                                        <p>1만원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p><span>3</span>시<span>~4</span>시 이후 어린이집<span>/</span>유치원 하원 하는경우</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>초등학교 이상</th>
+                                    <td>
+                                        <p>5천원</p>
+                                    </td>
+                                    <td>
+                                        <p>1만원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>8세<span>(</span>초등<span>) </span>이상인 경우</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">가족추가 1인당</th>
+                                    <td>
+                                        <p>5천원</p>
+                                    </td>
+                                    <td>
+                                        <p>8천원</p>
+                                    </td>
+                                    <td class="txt-left"><p>육아휴직, 재택근무 남편 및 부모님 등</p></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">신생아(쌍둥이) 1일 추가</th>
+                                    <td>
+                                        <p><span>4</span>만원</p>
+                                    </td>
+                                    <td>
+                                        <p>5만원</p>
+                                    </td>
+                                    <td class="txt-left"><p>신생아가 쌍둥이인 경우</p></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">출퇴근 토요일(9시~13시)<br />입주 토요일</th>
+                                    <td>
+                                        <p>75천원</p>
+                                    </td>
+                                    <td>
+                                        <p><span>23</span>만원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>
+                                            <!--[if !supportEmptyParas]-->
+                                            &nbsp;
+                                            <!--[endif]-->
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">시간추가(1시간당)</th>
+                                    <td>
+                                        <p><span>2</span>만<span></span>원<span lang="EN-US" xml:lang="EN-US">(</span>초산<span>)</span></p>
+                                    </td>
+                                    <td>
+                                        <p>
+                                            <!--[if !supportEmptyParas]-->
+                                            &nbsp;
+                                            <!--[endif]-->
+                                        </p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>
+                                            경산<span>(1</span>명<span>):2</span>만<span>3</span>천원
+                                            경산<span>(2</span>명<span>):2</span>만5천원
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">일요일/공휴일</th>
+                                    <td>
+                                        <p>175천원</p>
+                                    </td>
+                                    <td>
+                                        <p><span>25</span>만원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>일요일<span>/</span>공휴일에 근무하는 경우</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">명절 휴일</th>
+                                    <td>
+                                        <p><span>22</span>만원</p>
+                                    </td>
+                                    <td>
+                                        <p><span>30</span>만원</p>
+                                    </td>
+                                    <td class="txt-left"><p>명절휴일에 근무하는 경우</p></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 프리미엄 서비스 -->
+            <section class="sec-g">
+                <div class="container">
+                    <div class="sec-tit">
+                        <h2 class="tit-sub"><span class="red">프리미엄</span> 서비스</h2>
+                        <p class="txt-sub">
+                            프리미엄 서비스는 <span class="red">심화교육을 이수</span>하고 <span class="red">5년 이상의 경력</span>과
+                            산모도우미119에서 시행한 <span class="red">평가점수가 우수</span>한 관리사님이 서비스를 진행합니다.
+                        </p>
+                    </div>
+                    <div class="sec-cont">
+                        <table width="100%" class="tbl-type1 red" surmarry=">베스트 서비스 요금표">
+                            <colgroup>
+                                <col style="width: 20%" />
+                                <col style="width: 20%" />
+                                <col style="width: 20%" />
+                                <col style="width: 20%" />
+                                <col style="width: 20%" />
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>구분</th>
+                                    <th>1주</th>
+                                    <th>2주</th>
+                                    <th>3주</th>
+                                    <th>4주</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th rowspan="3">큰아이<br />(1명당)</th>
+                                    <th>미취학</th>
+                                    <td>
+                                        <p>1만원</p>
+                                    </td>
+                                    <td>
+                                        <p>1만 5천원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>
+                                            <span>24</span>개월미만으로 <span>2</span>시이전 하원이나 어린이집<span
+                                                lang="EN-US"
+                                                xml:lang="EN-US"
+                                                >/</span
+                                            >유치원 안가는경우
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>어린이집, <br />유치원</th>
+                                    <td>
+                                        <p>5천원</p>
+                                    </td>
+                                    <td>
+                                        <p>1만원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p><span>3</span>시<span>~4</span>시 이후 어린이집<span>/</span>유치원 하원 하는경우</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>초등학교 이상</th>
+                                    <td>
+                                        <p>5천원</p>
+                                    </td>
+                                    <td>
+                                        <p>1만원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>8세<span>(</span>초등<span>) </span>이상인 경우</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">가족추가 1인당</th>
+                                    <td>
+                                        <p>5천원</p>
+                                    </td>
+                                    <td>
+                                        <p>8천원</p>
+                                    </td>
+                                    <td class="txt-left"><p>육아휴직, 재택근무 남편 및 부모님 등</p></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">신생아(쌍둥이) 1일 추가</th>
+                                    <td>
+                                        <p><span>4</span>만원</p>
+                                    </td>
+                                    <td>
+                                        <p>5만원</p>
+                                    </td>
+                                    <td class="txt-left"><p>신생아가 쌍둥이인 경우</p></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">출퇴근 토요일(9시~13시)<br />입주 토요일</th>
+                                    <td>
+                                        <p>75천원</p>
+                                    </td>
+                                    <td>
+                                        <p><span>23</span>만원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>
+                                            <!--[if !supportEmptyParas]-->
+                                            &nbsp;
+                                            <!--[endif]-->
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">시간추가(1시간당)</th>
+                                    <td>
+                                        <p><span>2</span>만<span></span>원<span lang="EN-US" xml:lang="EN-US">(</span>초산<span>)</span></p>
+                                    </td>
+                                    <td>
+                                        <p>
+                                            <!--[if !supportEmptyParas]-->
+                                            &nbsp;
+                                            <!--[endif]-->
+                                        </p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>
+                                            경산<span>(1</span>명<span>):2</span>만<span>3</span>천원
+                                            경산<span>(2</span>명<span>):2</span>만5천원
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">일요일/공휴일</th>
+                                    <td>
+                                        <p>175천원</p>
+                                    </td>
+                                    <td>
+                                        <p><span>25</span>만원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>일요일<span>/</span>공휴일에 근무하는 경우</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">명절 휴일</th>
+                                    <td>
+                                        <p><span>22</span>만원</p>
+                                    </td>
+                                    <td>
+                                        <p><span>30</span>만원</p>
+                                    </td>
+                                    <td class="txt-left"><p>명절휴일에 근무하는 경우</p></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3 class="tit-sub2">추가요금</h3>
+                        <table surmarry=">베스트 서비스 요금표" class="tbl-type1 red" width="100%">
+                            <colgroup>
+                                <col style="width: 15%" />
+                                <col style="width: 15%" />
+                                <col style="width: 15%" />
+                                <col style="width: 15%" />
+                                <col style="width: auto" />
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th colspan="2">구분</th>
+                                    <th>출, 퇴근형</th>
+                                    <th>입주형</th>
+                                    <th>내용</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th rowspan="3">큰아이</th>
+                                    <th>미취학</th>
+                                    <td>
+                                        <p>1만원</p>
+                                    </td>
+                                    <td>
+                                        <p>1만 5천원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>
+                                            <span>24</span>개월미만으로 <span>2</span>시이전 하원이나 어린이집<span
+                                                lang="EN-US"
+                                                xml:lang="EN-US"
+                                                >/</span
+                                            >유치원 안가는경우
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>어린이집, <br />유치원</th>
+                                    <td>
+                                        <p>5천원</p>
+                                    </td>
+                                    <td>
+                                        <p>1만원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p><span>3</span>시<span>~4</span>시 이후 어린이집<span>/</span>유치원 하원 하는경우</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>초등학교 이상</th>
+                                    <td>
+                                        <p>5천원</p>
+                                    </td>
+                                    <td>
+                                        <p>1만원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>8세<span>(</span>초등<span>) </span>이상인 경우</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">가족추가 1인당</th>
+                                    <td>
+                                        <p>5천원</p>
+                                    </td>
+                                    <td>
+                                        <p>8천원</p>
+                                    </td>
+                                    <td class="txt-left"><p>육아휴직, 재택근무 남편 및 부모님 등</p></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">신생아(쌍둥이)1일 추가</th>
+                                    <td>
+                                        <p><span>4</span>만원</p>
+                                    </td>
+                                    <td>
+                                        <p>5만원</p>
+                                    </td>
+                                    <td class="txt-left"><p>신생아가 쌍둥이인 경우</p></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">출퇴근 토요일(9시~13시)<br />입주 토요일</th>
+                                    <td>
+                                        <p>75천원</p>
+                                    </td>
+                                    <td>
+                                        <p><span>23</span>만원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>
+                                            <!--[if !supportEmptyParas]-->
+                                            &nbsp;
+                                            <!--[endif]-->
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">시간추가(1시간당)</th>
+                                    <td>
+                                        <p><span>2</span>만<span></span>원<span lang="EN-US" xml:lang="EN-US">(</span>초산<span>)</span></p>
+                                    </td>
+                                    <td>
+                                        <p>
+                                            <!--[if !supportEmptyParas]-->
+                                            &nbsp;
+                                            <!--[endif]-->
+                                        </p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>
+                                            경산<span>(1</span>명<span>):2</span>만<span>3</span>천원
+                                            경산<span>(2</span>명<span>):2</span>만5천원
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">일요일/공휴일</th>
+                                    <td>
+                                        <p>175천원</p>
+                                    </td>
+                                    <td>
+                                        <p><span>27</span>만원</p>
+                                    </td>
+                                    <td class="txt-left">
+                                        <p>일요일<span>/</span>공휴일에 근무하는 경우</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">명절 휴일</th>
+                                    <td>
+                                        <p><span>22</span>만원</p>
+                                    </td>
+                                    <td>
+                                        <p><span>32</span>만원</p>
+                                    </td>
+                                    <td class="txt-left"><p>명절휴일에 근무하는 경우</p></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 안내사항 -->
+            <section class="sec-g bg-gray">
+                <div class="container">
+                    <div class="sec-tit">
+                        <h2 class="tit-sub">이용안내</h2>
+                    </div>
+                    <div class="sec-cont">
+                        <ul class="lst-bookiing">
+                            <li>서비스 금액은 예약금이 포함된 총 금액입니다.</li>
+                            <li>예약금은 예약 후 3일내에 입금 하시면 예약 확정됩니다.</li>
+                            <li>
+                                서비스를 3주 이상 이용하시는 분들은 해당 지사의 안내에 따라 서비스 금액 분할 납부를 요청드릴 수 있습니다.
+                            </li>
+                            <li>
+                                예약 시 예약금을 입금하신 후 해당 지사의 담당자에게 입금자명을 알려주신다면 빠른 예약 확인이 가능합니다.
+                            </li>
+                            <!-- <li><span>바우처 서비스의 경우 지역에 따라 차이가 있을 수 있으니 문의해주시기 바랍니다.</span></li> -->
+                            <li>명절(추석,설) 근무는 휴무를 원칙으로 하며 그 기간만큼 연장 근무합니다.</li>
+                            <li>
+                                서비스 이용 요금은 현금결재만 가능하며 현금영수증은 관리사님 인건비를 제외한 당사 수수료(예약금)에 대해서만
+                                발급 가능합니다.
+                            </li>
+                        </ul>
+                        <h3 class="tit-sub2">출 · 퇴근형 안내사항</h3>
+                        <ul class="lst-g">
+                            <li>평일 근무시간 : 오전 9시 ~ 오후 6시</li>
+                            <li>토요일 근무시간 : 오전 9시 ~ 오후 1시</li>
+                            <li>출퇴근형은 하루 1시간 산모님과 시간협의를 통해 휴식시간을 보장합니다.</li>
+                            <li>서비스 기간중 일요일/공휴일의 일수만큼 서비스 기간에서 연장됩니다.</li>
+                            <li>서비스 기간 연장을 원하시는 경우 서비스 종료 최소 1주일 전에 해당 지사와 협의하셔야 합니다.</li>
+                            <li>일요일/공휴일 근무는 산모님의 요청에 따라 단축 근무가 가능합니다.</li>
+                            <li>단축 근무 요청시 서비스 요금도 변동되오니 해당 지사에 문의바랍니다.</li>
+                        </ul>
+
+                        <h3 class="tit-sub2">입주형 안내사항</h3>
+                        <ul class="lst-g">
+                            <li>근무시간 : 일요일 오후 6시~금요일 오후 4시 또는 월요일 오전 9시~금요일 오후 7시 (의논 후 조정가능)</li>
+                            <li>하루 2시간 휴식, 주 4시간 외출시간을 보장합니다.</li>
+                            <li>저녁 8시 이후는 아기와 함께 취침하며, 신생아에 관한 업무만 진행합니다.</li>
+                            <li>
+                                주 5일 근무를 원칙으로 하며, 토요일/일요일/공휴일 근무를 원하실 경우 해당 지사와 협의 후 이용 가능합니다.
+                            </li>
+                            <li>공휴일 근무 시 공휴일 추가요금이 적용되며, 서비스 기간에 포함됩니다.</li>
+                            <li>서비스 기간 중 휴일 포함 시, 휴일 일 수 만큼 서비스 기간에서 연장됩니다.</li>
+                        </ul>
+
+                        <h3 class="tit-sub2">예약 및 환불 안내</h3>
+                        <ul class="lst-g">
+                            <li>
+                                서비스 예약 변경 안내
+                                <ul class="lst-g-depth2">
+                                    <li>
+                                        분만 일 및 수술 일자의 변경, 서비스 이용기간 변경 등의 예약 사항의 변동이 있을 시 최소 10일전에는
+                                        해당 지사로 변경 사실을 전달해야 합니다.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                서비스 개시 전 예약 취소 및 환불
+                                <ul class="lst-g-depth2">
+                                    <li class="none">※ 서비스 전 계약 철회 시, 아래 내용에 따라 예약금은 환급해드립니다.</li>
+                                    <li>서비스 개시 16일전 : 예약금 전액 환급</li>
+                                    <li>서비스 개시 8-15일전 : 예약금의 60% 환급</li>
+                                    <li>서비스 개시 4-7일전 : 예약금의 30% 환급</li>
+                                    <li>서비스 개시 3일전 : 예약금 전액 미환급</li>
+                                    <li>
+                                        천재지변, 산모님 또는 태아의 사망과 같은 불가항력적 사유로 서비스 이용이 불가 할시 예약금의 100%를
+                                        환급
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                서비스 예약 변경 안내
+                                <ul class="lst-g-depth2">
+                                    <li>서비스 중도 해지 시 실제 서비스 이용만큼의 요금을 별도 정산하여 지불해야 합니다.</li>
+                                    <li>
+                                        이용 요금 외의 업무 특성상 산후관리사 배정 및 서비스 제공 등의 업무차질에 대한 손실금이 발생하며
+                                        이는 총금액의 10%로 책정하여 이용자께서 부담하시게 됩니다.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                손실 보상
+                                <ul class="lst-g-depth2">
+                                    <li>
+                                        착한맘은 서비스 기간 중 산후관리사의 고의/ 과실/ 위법행위 등으로 인한 이용자에게 대인 또는 대물
+                                        피해가 발생한 경우, 배상책임보험 업체의 조사과정을 거쳐 보험회사의 배상 범위 내에서 보상을 합니다.
+                                    </li>
+                                    <li>
+                                        산후관리사에게는 반려동물에 대한 책임과 의무가 없으므로 반려동물에 대한 어떠한 책임도 지지 않습니다.
+                                    </li>
+                                    <li>
+                                        서비스 이용자는 서비스 공간에 베이비캠 등의 CCTV 설치 시, 착한맘 이용지점 및 산후관리사에게 서비스
+                                        첫날까지 정확한 위치를 알려야하며 미공지로 인해 발생하는 피해에 대해서는 이용자가 배상하도록 한다.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <h3 class="tit-sub2">지정 예약제</h3>
+                        <ul class="lst-g">
+                            <li>
+                                특정 관리사분을 지정하실 경우는 해당 관리사분이 산모님의 출산 일정에 맞추어 일정 기간동안 대기하셔야 하므로
+                                관리사분 임금에 일(하루)5천원씩을 별도로 부담하셔야 합니다.(서비스 종료시 관리사 분에게 직접지불)
+                            </li>
+                            <li>
+                                관리사분의 퇴사, 건강상의 문제, 집안사정, 개인휴무 등으로 인하여 서비스 진행이 불가한 경우 일반배정 또는
+                                다른 관리사분으로의 재지정이 가능하오니 이점 양해해 주시기 바랍니다.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

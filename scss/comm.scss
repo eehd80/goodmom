@@ -1,0 +1,322 @@
+@charset "UTF-8";
+@import "reset", "variables", "mixin", "fonts";
+
+// layout
+body {
+    padding-top: 70px;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera*/
+    }
+}
+.container {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+// comm
+.bg-pink {
+    background-color: rgba($prim1, 0.1);
+}
+.bg-red {
+    background-color: $prim1;
+}
+.bg-blue {
+    background-color: $prim3;
+}
+.bg-yellow {
+    background-color: $prim2;
+}
+.bg-red-op {
+    background-color: rgba($prim1, 0.1);
+}
+.bg-blue-op {
+    background-color: rgba($prim3, 0.1);
+}
+.bg-yellow-op {
+    background-color: rgba($prim2, 0.1);
+}
+.bg-gray {
+    background-color: rgba($b, 0.02);
+}
+.red {
+    color: $prim1;
+}
+.yellow {
+    color: $prim2;
+}
+.blue {
+    color: $prim3;
+}
+
+.btn- {
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    margin-top: 30px;
+    padding: 0 20px;
+    background-color: $line1;
+    color: $b;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 45px;
+}
+.link-more {
+    position: absolute;
+    top: -35px;
+    right: 0;
+    z-index: 100;
+    font-size: 0.857em;
+    color: $subFont;
+    &::after {
+        content: "\f105";
+        display: inline-block;
+        margin-left: 3px;
+        font-family: "Line Awesome Free";
+        font-weight: 900;
+    }
+}
+
+:root {
+    --swiper-theme-color: #000;
+}
+
+// header
+#hd {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: $w;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+#logo {
+    a {
+        display: block;
+        height: 50px;
+        padding-left: 70px;
+        background: url(../images/comm/logo.svg) 0 0 / contain no-repeat;
+        font-size: 22px;
+        line-height: 53px;
+        font-weight: 400;
+        span {
+            color: $prim;
+        }
+    }
+}
+#nav {
+    .lst-nav {
+        display: flex;
+        a {
+            display: block;
+            padding: 0 20px;
+        }
+    }
+}
+
+#lnb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 82px;
+    background-color: $w;
+    border-right: 1px solid #e5e5e5;
+    .lnb-ul {
+        margin: 0;
+        padding: 0;
+        a {
+            padding: 15px 0;
+            display: block;
+            &:hover {
+                .hov {
+                    opacity: 1;
+                }
+                .def {
+                    opacity: 0;
+                }
+            }
+        }
+        span {
+            display: table;
+            margin: 0 auto;
+            position: relative;
+            line-height: 0;
+        }
+        img {
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+        }
+        .hov {
+            position: Absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+        }
+    }
+}
+
+.sec-g {
+    padding: 100px 0;
+    .sec-tit {
+        margin-bottom: 40px;
+        em {
+            color: $prim;
+        }
+        .tit-sub {
+            margin-top: 20px;
+            font-size: 30px;
+            line-height: 1.2;
+            letter-spacing: -1px;
+            font-size: 40px;
+            font-weight: 400;
+        }
+        .txt-sub {
+            margin-top: 20px;
+            color: rgba($b, 0.5);
+        }
+    }
+    .sec-cont {
+        margin-top: 60px;
+        .tit-sub2 {
+            margin: 50px 0 10px;
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+    }
+    .sec-img {
+        // padding-left: 300px;
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0px;
+            right: 70px;
+            width: 200px;
+            height: 200px;
+            // background: url(../images/comm/logo.svg) 0 0 / contain no-repeat;
+        }
+    }
+}
+.sec-recruit {
+    .sec-cont {
+        .desc {
+            font-size: 2rem;
+            color: $prim1;
+        }
+    }
+}
+.lst-g {
+    > li {
+        position: relative;
+        padding: 2px 0 2px 13px;
+        font-weight: 300;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 11px;
+            left: 0;
+            width: 3px;
+            height: 3px;
+            background-color: $b;
+            opacity: 0.3;
+        }
+        span {
+            color: $prim1;
+        }
+    }
+    .lst-g-depth2 {
+        padding: 10px 0 20px;
+        li {
+            position: relative;
+            padding: 2px 0 2px 13px;
+            font-weight: 300;
+            &::before {
+                content: "";
+                position: absolute;
+                top: 13px;
+                left: 0;
+                width: 5px;
+                height: 1px;
+                background-color: $b;
+                opacity: 0.3;
+            }
+            &.none {
+                padding-left: 0;
+                &::before {
+                    display: none;
+                }
+            }
+            span {
+                color: $prim1;
+            }
+        }
+    }
+}
+
+.tbl-type1 {
+    &.yellow {
+        thead {
+            th {
+                background-color: $prim2;
+            }
+        }
+    }
+    &.red {
+        thead {
+            th {
+                background-color: $prim1;
+            }
+        }
+    }
+    thead {
+        th {
+            padding: 18px 0 15px;
+            border-right: 1px solid $w;
+            border-bottom: 1px solid $w;
+            background-color: $prim3;
+            color: $w;
+        }
+    }
+    tbody {
+        th,
+        td {
+            padding: 18px 0 15px;
+            text-align: center;
+            // border-right: 1px solid $w;
+        }
+        th {
+            background-color: rgba($b, 0.05);
+            border-bottom: 1px solid $w;
+            border-right: 1px solid $w;
+        }
+        td {
+            border-bottom: 1px solid $lineCont2;
+        }
+    }
+    .txt-left {
+        padding-left: 20px;
+        text-align: left;
+        font-weight: 300;
+    }
+}
+
+@import "main", "contents";

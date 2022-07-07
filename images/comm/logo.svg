@@ -1,0 +1,58 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="398.93" height="379.5" viewBox="0 0 398.93 379.5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1945" data-name="사각형 1945" width="398.93" height="379.5" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="사각형_1940" data-name="사각형 1940" width="260.398" height="279.023" transform="translate(138.532)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="사각형_1941" data-name="사각형 1941" width="216.399" height="231.698" transform="translate(0 137.674)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="사각형_1943" data-name="사각형 1943" width="142.651" height="145.232" transform="translate(172.744 234.268)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_849" data-name="그룹 849" clip-path="url(#clip-path)">
+    <g id="그룹_848" data-name="그룹 848">
+      <g id="그룹_847" data-name="그룹 847" clip-path="url(#clip-path)">
+        <g id="그룹_837" data-name="그룹 837" style="mix-blend-mode: multiply;isolation: isolate">
+          <g id="그룹_836" data-name="그룹 836">
+            <g id="그룹_835" data-name="그룹 835" clip-path="url(#clip-path-3)">
+              <path id="패스_5642" data-name="패스 5642" d="M354.016,219.1l-.009.006a122.859,122.859,0,1,0-41.094,26.119l51.86,26.793Z" fill="#f37188" stroke="#f37188" stroke-linejoin="round" stroke-width="14"/>
+              <path id="패스_5643" data-name="패스 5643" d="M197.633,147.169a75.759,75.759,0,0,0,142.194,0" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+              <path id="패스_5644" data-name="패스 5644" d="M250.067,99.777a9.43,9.43,0,1,1-9.431-9.431,9.43,9.43,0,0,1,9.431,9.431" fill="#fff"/>
+              <path id="패스_5645" data-name="패스 5645" d="M306.255,99.777a9.43,9.43,0,1,1-9.431-9.431,9.431,9.431,0,0,1,9.431,9.431" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <g id="그룹_840" data-name="그룹 840" style="mix-blend-mode: multiply;isolation: isolate">
+          <g id="그룹_839" data-name="그룹 839">
+            <g id="그룹_838" data-name="그룹 838" clip-path="url(#clip-path-4)">
+              <path id="패스_5646" data-name="패스 5646" d="M38.145,318.9l.007,0a100.9,100.9,0,1,1,33.755,21.457l-42.6,22.008Z" fill="#ffcb00" stroke="#ffcb00" stroke-linejoin="round" stroke-width="14"/>
+              <path id="패스_5647" data-name="패스 5647" d="M166.6,259.813a62.232,62.232,0,0,1-116.8,0" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+              <path id="패스_5648" data-name="패스 5648" d="M123.531,220.885a7.747,7.747,0,1,0,7.747-7.747,7.747,7.747,0,0,0-7.747,7.747" fill="#fff"/>
+              <path id="패스_5649" data-name="패스 5649" d="M77.376,220.885a7.747,7.747,0,1,0,7.747-7.747,7.747,7.747,0,0,0-7.747,7.747" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <g id="그룹_846" data-name="그룹 846" style="mix-blend-mode: multiply;isolation: isolate">
+          <g id="그룹_845" data-name="그룹 845">
+            <g id="그룹_844" data-name="그룹 844" clip-path="url(#clip-path-5)">
+              <g id="그룹_843" data-name="그룹 843" style="mix-blend-mode: multiply;isolation: isolate">
+                <g id="그룹_842" data-name="그룹 842">
+                  <g id="그룹_841" data-name="그룹 841" clip-path="url(#clip-path-5)">
+                    <path id="패스_5650" data-name="패스 5650" d="M297.539,343.962a65.822,65.822,0,1,0-20.62,18.665C286.133,366.42,306.977,374,306.977,374Z" fill="#6bd3e6" stroke="#6bd3e6" stroke-linejoin="round" stroke-width="11"/>
+                  </g>
+                </g>
+              </g>
+              <path id="패스_5651" data-name="패스 5651" d="M207.138,313.664a39.353,39.353,0,0,0,73.862,0" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="11"/>
+              <path id="패스_5652" data-name="패스 5652" d="M234.374,289.047a4.9,4.9,0,1,1-4.9-4.9,4.9,4.9,0,0,1,4.9,4.9" fill="#fff"/>
+              <path id="패스_5653" data-name="패스 5653" d="M263.561,289.047a4.9,4.9,0,1,1-4.9-4.9,4.9,4.9,0,0,1,4.9,4.9" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
